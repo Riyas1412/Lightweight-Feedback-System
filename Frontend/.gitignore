@@ -1,4 +1,15 @@
+
+# Ignore Firebase admin SDK key
+Backend/firebase-adminsdk.json
+
+# Also ignore any .env files everywhere
+.env
+**/.env
+
+
 # Logs
+
+
 logs
 *.log
 npm-debug.log*
